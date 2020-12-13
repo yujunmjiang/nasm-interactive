@@ -7,6 +7,7 @@
         <title>NASM Collection</title>
         <link rel="shortcut icon" href="images/favicon.ico">
 
+        <!-- CSS Style Sheet -->
         <link rel="stylesheet" href="css/style.css">
 
         <!-- Load Leaflet code library - see updates at http://leafletjs.com/download.html -->
@@ -16,10 +17,8 @@
         <!-- Load P5 code library - see updates at https://p5js.org/download/ -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
         
-        <!-- Load D3 code library - see updates at https://d3js.org -->
-        <script src="https://d3js.org/d3.v6.min.js"></script>
-        
     </head>
+    
     <body>
         <div class="logo">
             <img src="images/si-logo.png" alt="Smithsonian Institution Logo">
@@ -35,12 +34,21 @@
             </p>
         </div>
         
-        <div class="map-wrapper">
+        <div class="map-wrapper" onload="init()">
             <div id="mapid"></div>
         </div>
 
-        <!-- <script src="js/script.js"></script> -->
+        <div id="container" style="width: 100%;">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <!-- partial -->
         <script src="js/sketch.js"></script>
+        <script src="js/Leaflet.CountrySelect.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js'></script>
+        <script  src="js/script.js"></script>
+
     </body>
 
 </html>

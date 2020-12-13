@@ -12,6 +12,12 @@ function preload(){
 
     tableEngine = loadTable('data/smithsonian_nasm_engine.csv', 'csv', 'header');
     console.log(tableEngine)
+
+    militaryCount = loadTable('data/smithsonian_nasm_militaryCount.csv', 'csv', 'header');
+    console.log(militaryCount)
+
+    nonmilitaryCount = loadTable('data/smithsonian_nasm_nonmilitaryCount.csv', 'csv', 'header');
+    console.log(nonmilitaryCount)
 }
 
 function setup(){
@@ -20,16 +26,6 @@ function setup(){
 }
 
 function setupMap(){
-    // count rows and columns for each table
-    print(tableMilitary.getRowCount() + 'total rows in table');
-    print(tableMilitary.getColumnCount() + 'total columns in table');
-
-    print(tableNonMilitary.getRowCount() + 'total rows in table');
-    print(tableNonMilitary.getColumnCount() + 'total columns in table');
-
-    print(tableEngine.getRowCount() + 'total rows in table');
-    print(tableEngine.getColumnCount() + 'total columns in table');
-
     // noCanvas();
     // set up initial map center and zoom level
     mymap = L.map('mapid', {scrollWheelZoom: false}).setView([38.889, -77.026], 3);
@@ -37,6 +33,24 @@ function setupMap(){
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         maxZoom: 18,
     }).addTo(mymap);
+
+    var select = L.countrySelect({exclude:"French Southern and Antarctic Lands"});
+
+    select.addTo(mymap);
+    
+    select.on('change', function(e){
+        if (e.feature === undefined){ //Do nothing on title
+            return;
+        }
+        var country = L.geoJson(e.feature);
+        if (this.previousCountry != null){
+            mymap.removeLayer(this.previousCountry);
+        }
+        this.previousCountry = country;
+
+        mymap.fitBounds(country.getBounds());
+        
+    });
 
 
 }
@@ -57,6 +71,8 @@ function addCircles(){
         // place the new dot on the map and add tooltip to it
         circle.addTo(mymap);
         circle.bindPopup(row.get('title') + '<br>Manufactor: ' + row.get('manufactor') + '<br>Year: ' + row.get('year') + '<br>Type: military').addTo(mymap);
+
+        // mymap.addLayer(military);
 
     }
 
@@ -97,4 +113,3 @@ function addCircles(){
  
 
 }
-

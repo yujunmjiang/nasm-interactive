@@ -30,9 +30,6 @@ p {
   margin-top: 2.5%;
 }
 
-/* .layer-picker {
-  position: absolute;
-  top: 725px;
-  right: 15px;
-  z-index: 20000;
-} */
+#canvas {
+  margin-top: 2.5%;
+}
