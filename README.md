@@ -10,3 +10,5 @@ Although many people in the late 1800s were very impressed with this flight, lit
 
 #### Concept
 
+In this project, the task is to create an interactive visualization bese on data that provided by [Smithsonian Institution Open Access API](http://edan.si.edu/openaccess/apidocs/)
+
