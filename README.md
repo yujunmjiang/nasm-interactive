@@ -27,3 +27,5 @@ Before my visual desgin, I decided to use manufactor's name instead of country b
 This mockup includes three sections which are description, interactive map, and bar chart. User can click each location to see more information about the aircraft includes project name, manufactor, year, and type. The bar chart will show the trend of aircraft develoment in our history base on the number of collections that owned by the National Air and Space Museum.
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/nasm-final-01.jpg">
+
+Originally, the whole dataset should be devided by two categories: military or non-military uses.
