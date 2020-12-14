@@ -37,5 +37,7 @@ In this version, I made the following changes:
 * The map filter has been updated to country searching function instead of project category, and user can jump to the target country by clicking each of them
 * User can see project name, manufactor, year, and type by clicking each dot/circle on the map
 * The bar chart is visualizing the development trends of aerospace industry base on the collections that owned by the National Air and Space Museum in three categories: militray, non-military, and engine
+* User can get a total number of collections in different date and category
+* Please feel free to check my demo [here](https://yujunmjiang.github.io/nasm-interactive/) and contact me if you have any questions
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/screencapture-yujunmjiang-github-io-nasm-interactive-2020-12-13-19_24_40.png">
