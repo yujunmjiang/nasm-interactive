@@ -20,4 +20,4 @@ In this step, I used URL and keyword method to request my dataset from the API. 
 
 #### Geocode
 
-For the final outupt, I decided to use manufactor's name instead of country becuase it can make to find a precise location for each aircraft. 
+Before my visual desgin, I decided to use manufactor's name instead of country becuase it can make to find a precise location for each aircraft. Unfortunately, I recognized the Smithsonian Institution Open Access API did not provide latidude and longitude associated with manufactor's location, so I added all of them manually.
