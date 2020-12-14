@@ -28,4 +28,4 @@ This mockup includes three sections which are description, interactive map, and 
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/nasm-final-01.jpg">
 
-Originally, the whole dataset should be devided by two categories: military or non-military uses.
+Originally, the whole dataset should be devided by two categories: military or non-military uses. The interesting thing is 1/3 data are under a different category called engine. In the history, many manufactor has switched their research and development direction from one to another. Indeed, it can be changed by time easily and that is why we can see a big number of aircrafts in military before WWI and WWII.
