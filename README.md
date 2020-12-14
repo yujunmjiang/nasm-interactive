@@ -21,3 +21,7 @@ In this step, I used URL and keyword method to request my dataset from the API. 
 #### Geocode
 
 Before my visual desgin, I decided to use manufactor's name instead of country becuase it can make to find a precise location for each aircraft. Unfortunately, I recognized the Smithsonian Institution Open Access API did not provide latidude and longitude associated with manufactor's location, so I added all of them manually.
+
+#### Visual Design
+
+This mockup includes three sections which are description, interactive map, and bar chart. User can click each location to see more information about the aircraft includes project name, manufactor, year, and type. The bar chart will show the trend of aircraft develoment in our history base on the number of collections that owned by the National Air and Space Museum.
