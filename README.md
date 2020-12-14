@@ -14,4 +14,4 @@ In this project, the task is to create an interactive visualization bese on data
 
 #### Data Request and Cleaning
 
-In this step, I used URL and keyword method to request my dataset from the API. My data includes all aircraft collection by the [National Air and Space Museum](https://airandspace.si.edu) under CC0 access and "object_type": ["aircraft"].
+In this step, I used URL and keyword method to request my dataset from the API. My data includes all aircraft collection by the [National Air and Space Museum](https://airandspace.si.edu) under CC0 access and "object_type": ["aircraft"]. Then, I converted the dataset from JSON to CSV to prepare for the visualization. Meanwhile, I found some duplicated and inaccurate variables appeared in some columns, so I have to clean them out to avoid the conflict in data mapping.
