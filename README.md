@@ -42,4 +42,8 @@ In this version, I made the following changes:
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/screencapture-yujunmjiang-github-io-nasm-interactive-2020-12-13-19_24_40.png">
 
+#### Next Step
+
+* The wireframe has been 100% re-designed base on the feedback of this visualization and my previous [quantitative data project](https://github.com/yujunmjiang/nasm-quantitative)
+
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/nextStep.jpg">
