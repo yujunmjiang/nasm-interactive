@@ -46,7 +46,10 @@ In this version, I made the following changes:
 
 * The wireframe has been 100% re-designed base on the feedback of this visualization and my previous [quantitative data project](https://github.com/yujunmjiang/nasm-quantitative)
 * All data points are visualized and arranged in matrixes by decades, which can track the development trends of aerospace industry
-* X-axis is representing countries and Y-axis means collections (projects)
-* Tooltip
+* X-axis is representing countries and Y-axis means collections (archived projects)
+* Tooltip contains detailed information including image, title, country, description, date, manufacturer...
+* Project types and materials are visualized by different colors and shapes
+* Zoom-in and out on the left will guide users to a sepcific project or look at all of them at the same time
+
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/nextStep.jpg">
