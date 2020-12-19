@@ -45,6 +45,7 @@ In this version, I made the following changes:
 #### Next Step
 
 * The wireframe has been 100% re-designed base on the feedback of this visualization and my previous [quantitative data project](https://github.com/yujunmjiang/nasm-quantitative)
-* All data points are visualized and arranged in matrixes by decades, which can track the development trends of
+* All data points are visualized and arranged in matrixes by decades, which can track the development trends of aerospace industry
+* X-axis is representing countries and Y-axis means collections (projects)
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p3_final/document/nextStep.jpg">
